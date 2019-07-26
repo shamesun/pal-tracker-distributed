@@ -1,10 +1,10 @@
 applications:
-  - name: tracker-registration-shamesun
+  - name: tracker-registration
     path: ./applications/registration-server/build/libs/registration-server.jar
     routes:
       - route: registration-pal-shamesun-pcf.cfapps.io
-    memory: 500M
-    disk_quota: 500M
+    memory: 300M
+    disk_quota: 300M
     instances: 1
     env:
       JAVA_OPTS: '-XX:MaxMetaspaceSize=80780K -Xss512k -Xmx200M -XX:ReservedCodeCacheSize=16M -XX:MaxDirectMemorySize=16M'
