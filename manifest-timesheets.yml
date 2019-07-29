@@ -12,3 +12,4 @@ applications:
       REGISTRATION_SERVER_ENDPOINT: https://registration-pal-shamesun-pcf.cfapps.io
     services:
       - tracker-timesheets-database
+      - tracker-circuit-breaker-dashboard
