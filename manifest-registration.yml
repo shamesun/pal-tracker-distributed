@@ -12,3 +12,5 @@ applications:
       REGISTRATION_SERVER_ENDPOINT: https://registration-pal-shamesun.cfapps.io
     services:
       - tracker-registration-database
+      - tracker-circuit-breaker-dashboard
+      - tracker-service-registry

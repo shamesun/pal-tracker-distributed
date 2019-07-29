@@ -14,3 +14,4 @@ applications:
     services:
       - tracker-allocations-database
       - tracker-circuit-breaker-dashboard
+      - tracker-service-registry
